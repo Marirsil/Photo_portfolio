@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+}
+
+body {
+  background: #0D0D0D;
+}
+
+h1, h2, p, a {
+  text-decoration: none;
+  color: #F9F9FB;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  padding: 0 2.5rem; /* 40px */
+  flex-direction: column;
+  width: 100%;
+  background-color: rgba(11, 11, 11, 0.10);
+  backdrop-filter: blur(10px);
+  height: 4.5rem; /* 72px */
+  z-index: 1000;
+}
+
+#logo {
+  position: absolute;
+  left: 2.31rem; /* 37px */
+  top: 0.625rem; /* 10px */
+  height: 3.19rem; /* 51px */
+  width: 7rem; /* 112px */
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 0.8125rem; /* 13px */
+  padding-right: 1rem;
+  height: 4.5rem; /* 72px */
+  font-size: 1.25rem; /* 20px */
+}
+
+.navBar ul {
+  padding-top: 1.4375rem; /* 23px */
+  display: flex;
+  gap: 3rem; /* 48px */
+  list-style: none;
+  align-items: center;
+}
+
+.navBar ul :hover{
+  text-decoration: underline;
+}
+
+.linhaHeader {
+  width: 100%;
+  height: 0.1875rem; /* 3px */
+  background: #FFFFFF;
+  margin-top: -0.0625rem; /* -1px */
+  opacity: 0.4;
+}
+
+.home h1 {
+  font-size: 5rem; /* 80px */
+  color: #F9F9FB;
+}
+
+.home {
+  display: flex;
+  background-image: url(./images/imgHome.jpg);
+  height: 100vh;
+  background-size: cover;
+  padding-left: 3rem;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.botao1 {
+  display: flex;
+  gap: 0.30rem; /* 5px */
+  align-items: center;
+  justify-content: flex-end;
+  width: 17.1875rem; /* 275px */
+  height: 2.9375rem; /* 47px */
+  border-radius: 1.5rem; /* 24px */
+  background-color: rgba(217, 217, 217, 0.17);
+  border: none;
+  color: white;
+  font-size: 1.125rem; /* 18px */
+  padding: 0 1.25rem; /* 20px */
+  cursor: pointer;
+}
+
+.botao2 {
+  width: 15.1875rem; /* 243px */
+  height: 2.8125rem; /* 45px */
+  border-radius: 1.5rem; /* 24px */
+  border: 1px solid white;
+  background: none;
+  color: #F9F9FB;
+  cursor: pointer;
+  font-size: 1.125rem; /* 18px */
+}
+
+#portfolio {
+  padding: 5.6875rem 0 0 3.8125rem; /* 91px 0 0 61px */
+}
+
+.portfolioText h2 {
+  font-size: 48px;
+}
+
+.portfolioText p {
+  font-size: 20px;
+  color: #F9F9FB;
+  opacity: 70%;
+}
+
+.imgsButton{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+.imgPortfolio {
+  width: 100%;
+  display: flex;
+  gap: 2rem; 
+}
+
+.imgPortfolio img {
+  margin-top: 4rem;
+  width: 21.875rem; 
+  height: 33.43rem; 
+}
+
+.botaoNext button{
+  width: 46px;
+  height: 49px;
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.botaoNext img{
+  width: 27px;
+  height: 49px;
+}
+
+#sobreMim {
+  display: flex;
+}
+
+.sobreMimText{
+  flex-direction: column;
+  text-align: center;
+}
+
+.sobreMimText h2{
+  font-size: 48px;
+}
+
+.sobreMimText p{
+  font-size: 20px;
+  line-height: 30px;
+  color: #F9F9FB;
+  opacity: 70%;
+}
+
+.sobreMimLine {
+  width: 207px;
+  height: 0px;  
+  color: #FFFFFF;
+  border: 1px solid;
+}

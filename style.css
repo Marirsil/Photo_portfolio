@@ -188,3 +188,47 @@ header {
   color: #FFFFFF;
   border: 1px solid;
 }
+
+#orcamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/Vectors.svg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.contatoEOrcamento {
+  display: flex;
+  padding: 151px 99px 149px 99px;
+}
+
+.textContato h2{
+  font-size: 48px;
+}
+
+.text {
+  opacity: 70%;
+  font-size: 14px;
+}
+.orcamentoContainer {
+  width: 26.875rem; /* 430px */
+  height: 29.75rem; /* 476px */
+  background-color: #191919;
+  border-radius: 1.25rem; /* 20px */
+  box-shadow: 15px 19px 25.9px 0px rgba(0, 0, 0, 0.40);
+  margin-left: 109px;
+}
+.seuOrcamento p {
+  font-size: 14px;
+  opacity: 70%;
+}
+
+.seuOrcamento h2 {
+  font-size: 28px;
+  color: #CCCCCC;
+}
+
+footer p{
+  font-size: 14px;
+}

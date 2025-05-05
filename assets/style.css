@@ -30,6 +30,21 @@ header {
   z-index: 1000;
 }
 
+.inicio--text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20rem;
+}
+
+.inicio{
+  background-image: url(./images/image\ 53.png);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
 #logo {
   position: absolute;
   left: 2.31rem; /* 37px */
@@ -227,6 +242,27 @@ header {
 .seuOrcamento h2 {
   font-size: 28px;
   color: #CCCCCC;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redesSociais {
+  display: flex;
+  gap: 1rem;
+}
+
+.minhasRedes ul{
+  display: flex;
+  gap: 1rem; /* 32px */
+}
+
+.minhaRedeLine{
+  border: solid 1px #FFFFFF;
+  opacity: 0.7;
 }
 
 footer p{

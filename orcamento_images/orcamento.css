@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p, h1, h2, li{
+    color: #F9F9FBB2;
+}
+
+.inicio{
+    background-image: url(../orcamento_images/images_2/image\ 53.png);
+    height: 100vh;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.orcamento{
+    background-image: url(./images_2/Vectors.png);
+    
+    
+}
+
+footer{
+    background-color: #0D0D0D;
+}
+
+header{
+    display: flex;
+    /* position: fixed; */
+    padding: 0 2.5rem;
+    flex-direction: column;
+    width: 100%;
+    background: black;
+    /* background-color: rgba(11, 11, 11, 0.10); */
+    /* backdrop-filter: blur(10px); */
+    height: 4.5rem;
+}
+
+#logo{
+    position: absolute;
+    left: 2.31rem;
+    top: 0.625rem;
+    height: 3.19rem;
+    width: 7rem;
+}
+
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 0.8125rem;
+    padding-right: 1rem;
+    height: 4.5rem;
+    font-size: 1.25rem;
+}
+
+.navBar ul{
+    padding-top: 1.4375rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+
+}
+

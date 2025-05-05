@@ -20,6 +20,8 @@ link do repositório: [Photo_portfolio](https://github.com/Marirsil/Photo_portfo
 1. Fazer download e subir os arquivos para o repositório de vocês, clicando no botão Code e escolhendo a opção Download ZIP.
 
 2. Fazer um Fork, criando uma cópia do repositório em suas contas do GitHub. A opção Fork fica acima da descrição do repositório.
+   
+3. ([Link de acesso do site no GitHub pages:](https://marirsil.github.io/Photo_portfolio/index.html))
 
 ## Autores:
 

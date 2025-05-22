@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bodyColor: #0D0D0D;
+  --textColor: #F9F9FB;
+  --textColor40: #f9f9fb67;
+  --textColor70: #f9f9fbb4;
+  --h4Color: #CCCCCC;
+
+
+  --font-family: 'Libre Baskerville', sans-serif;
+  --h1: 400 80px var(--font-family);
+  --h2: 400 48px var(--font-family);
+  --h4: 700 28px var(--font-family);
+  --button: 400 18px var(--font-family);
+  --paragrafo1: 400 20px/30px var(--font-family);
+  --paragrafo1Bold: 700 20px var(--font-family);
+  --paragrafo2:400 14px/30px var(--font-family) ;
+  --paragrafo2Bold: 700 14px/30px var(--font-family);
+  --subtitle: 400 14px/30px var(--font-family);
+  --description: 400 10px/15px var(--font-family);
+  --footerText: 400 11px/30px var(--font-family);
+  --inputText: 400 12px  var(--font-family); 
+}

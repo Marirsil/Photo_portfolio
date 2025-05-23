@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Baskerville", serif;
+  }
+
+
+  .navBar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 0.8125rem;
+    padding-right: 1rem;
+    height: 4.5rem;
+    font-size: 1.25rem;
+  }
+  
+  .inicio {
+    background-image: url(../assets/images/image\ 53.png);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .inicio-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20rem;
+  }
+
+  #orcamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/svg/Vectors.svg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+  }
+  .orcamentoContainer {
+    padding: 1rem;
+    width: 28.875rem;
+    height: 31.75rem;
+    background-color: #191919;
+    border-radius: 1.25rem;
+    box-shadow: 15px 19px 25.9px 0px rgba(0, 0, 0, 0.40);
+  }
+
+  .seuOrcamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.2rem;
+  }
+
+  .contatoOrcamento {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+  }
+
+  .entreEmContato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 597px;
+    height: 460px;
+  }
+  
+  .textContato {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .text {
+    opacity: 70%;
+    font-size: 14px;
+  }
+
+  .ancoraContato {
+    padding-left: 2rem;
+  }
+
+  .minhasRedes {
+    color: rgb(255, 255, 255);
+  }
+  
+  .minhasRedes ul {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer{
+    color: rgb(0, 0, 0)
+  }
+  
+  

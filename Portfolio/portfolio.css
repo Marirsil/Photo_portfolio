@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: var(--bodyColor);
+    color: #fff;
+  }
+  
+
+  /* HERO */
+  .hero {
+    position: relative;
+    height: 80vh; 
+    width: 100%;
+    overflow: hidden;
+    font: var (--h1);
+  }
+  
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(55%);
+  }
+  
+  .hero--texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  .hero--texto h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .hero--texto p {
+    font-size: 1.3rem;
+    color: #ccc;
+  }
+  
+  /* FILTROS */
+  .filtros--fotos {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px; 
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 10;
+    text-align: center; 
+}
+
+.filtros {
+    list-style: none;
+    background: var(--retangulo);
+    padding: 12px 15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px var(--bodyColor); 
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    backdrop-filter: blur(5px);
+}
+
+.filtros li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.3s ease;
+    font: var(--mobile--paragrafo1Bold)
+}
+
+.filtros li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff; 
+    transition: width 0.3s ease;
+}
+
+.filtros li a:hover::after {
+    width: 100%;
+}
+
+.galeria--fotos {
+    column-count: 3;  
+    column-gap: 25px; 
+    max-width: 1200px;
+    margin: 0 auto px;
+    padding: 0 20px;
+}
+
+.galeria--fotos img {
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.galeria--fotos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px var(--bodyColor);
+}
+  
+
+  /* FOOTER */
+  .footer--container {
+    background: url(../assets/svg/Vector 2.svg);
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .footer--container img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .footer--container p.text {
+    max-width: 500px;
+    margin: 0 auto 20px;
+    font-size: 0.9rem;
+    color: var(----textColor70);
+  }
+  
+  .footer--container ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .footer--container ul li a img {
+    width: 24px;
+    transition: opacity 0.3s;
+  }
+  
+  .footer--container ul li a img:hover {
+    opacity: 0.7;
+  }
+  
+  .footer--container p {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 20px;
+    font: var(--subtitle)
+  }
+  
+  /* ANIMAÇÕES */
+  @keyframes fadeIn {
+    0% {opacity: 0; transform: translate(-50%, -60%);}
+    100% {opacity: 1; transform: translate(-50%, -50%);}
+  }
+  
+  @keyframes fadeInUp {
+    0% {opacity: 0; transform: translateY(30px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+  
+  /* RESPONSIVO */
+  @media (max-width: 1024px) {
+    .galeria--fotos {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .hero--texto h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .portfolio--header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .navBar ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .filtros {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .galeria--fotos {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+  @media (max-width: 900px) {
+    .galeria--fotos {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .galeria--fotos {
+        column-count: 1;
+    }
+}

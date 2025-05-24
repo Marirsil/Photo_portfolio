@@ -10,6 +10,7 @@
   --textColor40: #f9f9fb67;
   --textColor70: #f9f9fbb4;
   --h4Color: #CCCCCC;
+  --retangulo: #202020;
 
 
   --font-family: 'Libre Baskerville', sans-serif;
@@ -25,4 +26,6 @@
   --description: 400 10px/15px var(--font-family);
   --footerText: 400 11px/30px var(--font-family);
   --inputText: 400 12px  var(--font-family); 
+  
+  --mobile--paragrafo1Bold: 700 14px/30px var(--font-family);
 }

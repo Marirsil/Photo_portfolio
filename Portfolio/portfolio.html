@@ -3,69 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./assets/style.css" />
-  <link rel="shortcut icon" href="./assets/images/Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./portfolio.css" />
+  <link rel="stylesheet" href="../assets/styles/header.css">
+  <link rel="shortcut icon" href="../assets/images/Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/styles/global.css">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <title>Igor Photography</title>
 </head>
 <body>
-  <header class="portfolio--header">
-    <a href="index.html"id="logo"><img src="./assets/images/Logo.png" alt="Logo do Igor"></a>
+  <header>
+    <a href="#" id="logo">
+      <img src="../assets/images/Logo.png" alt="Logo do site">
+    </a>
     <nav class="navBar">
-      <ul>
-        <li><a href="#portfolio">Portfólio</a></li>
-        <li><a href="#sobreMim">Sobre mim</a></li>
-        <li><a href="#orcamento">Orçamento</a></li>
-      </ul>
+        <ul>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#sobreMim">Sobre mim</a></li>
+          <li><a href="#orcamento">Orçamento</a></li>
+        </ul>
     </nav>
     <div class="linha linhaHeader"></div>
   </header>
 
-
-  <main class="galeria">
-    <section >
-      <div class="textos--home">
-        <h1>Câmera ação</h1>
-        <p>Confira meu portifólio</p>
-      </div>
-      <nav class="filtros--fotos">
-        <div class="lista--pesquisa">
-          <ul class="filtros">
-            <li><a href="">Tudo</a></li>
-            <li><a href="">Casamento</a></li>
-            <li><a href="">Festas</a></li>
-            <li><a href="">Eventos</a></li>
-            <li><a href="">Esportes</a></li>
-            <li><a href="">Ensaios</a></li>
-            <li><a href="">Formatura</a></li>
-            <li><a href="">Shows</a></li>
-          </ul>
-        </div>
-      </nav>
-    </section>
-    
+  
+  <section class="hero">
+    <img src="../assets/images/img14.png" alt="Foto Grande">
+    <div class="hero--texto">
+      <h1>Câmera ação</h1>
+      <p>Confira meu portifólio</p>
+    </div>
+  </section>
+  
+  <nav class="filtros--fotos">
+    <ul class="filtros">
+      <li><a href="#">Tudo</a></li>
+      <li><a href="#">Casamentos</a></li>
+      <li><a href="#">Festas</a></li>
+      <li><a href="#">Eventos</a></li>
+      <li><a href="#">Esportes</a></li>
+      <li><a href="#">Ensaios</a></li>
+      <li><a href="#">Formaturas</a></li>
+      <li><a href="#">Shows</a></li>
+    </ul>
+  </nav>
+  
+  <div class="galeria--fotos">
+    <!-- imagens -->
+  </div>
+  <main>
     <div class="galeria--fotos">
-      <img src="./assets/images/img2.png" alt="Foto 3" />
-      <img src="./assets/images/img3.png" alt="Foto 2" />
-      <img src="./assets/images/img4.png" alt="Foto 4" />
-      <img src="./assets/images/img5.png" alt="Foto 5" />
-      <img src="./assets/images/img7.png" alt="Foto 7" />
-      <img src="./assets/images/img8.png" alt="Foto 8" />
-      <img src="./assets/images/img9.png" alt="Foto 9" />
-      <img src="./assets/images/img1.png" alt="Foto 1" />
-      <img src="./assets/images/img10.png" alt="Foto 10" />
-      <img src="./assets/images/img11.png" alt="Foto 11" />
-      <img src="./assets/images/img12.png" alt="Foto 12" />
+      <img src="../assets/images/img8.png" alt="Foto 1" />
+      <img src="../assets/images/img3.png" alt="Foto 2" />
+      <img src="../assets/images/img10.png" alt="Foto 3" />
+      <img src="../assets/images/img9.png" alt="Foto 4" />
+      <img src="../assets/images/img6.png" alt="Foto 5" />
+      <img src="../assets/images/img2.png" alt="Foto 6" />
+      <img src="../assets/images/img4.png" alt="Foto 7" />
+      <img src="../assets/images/img11.png" alt="8">
+      <img src="../assets/images/img12.png" alt="Foto 9" />
+      <img src="../assets/images/img1.png" alt="Foto 10" />
+      <img src="../assets/images/img7.png" alt="Foto 11" />
+      <img src="../assets/images/img5.png" alt="Foto 12" />
     </div>
   </main>
 
   <footer class="footer--container">
-    <img src="./assets/images/Logo.png" alt="Logo do site Igor Photography">
+    <img src="../assets/images/Logo.png" alt="Logo do site Igor Photography">
     <p class="text">Fotografia feita com qualidade, cuidado e atenção a cada detalhe. Atendendo em São Paulo e região com foco em eventos, retratos e projetos especiais.</p>
       <ul class="redesSociais">
-        <li><a href=""><img src="./assets/svg/Behance.svg" alt="Logo Behance"></a></li>
-        <li><a href=""><img src="./assets/svg/linkedin.svg" alt="Logo LinkeDin"></a></li>
-        <li><a href=""><img src="./assets/svg/instagram.svg" alt="Logo instagram"></a></li>
+        <li><a href=""><img src="../assets/svg/Behance.svg" alt="Logo Behance"></a></li>
+        <li><a href=""><img src="../assets/svg/linkedin.svg" alt="Logo LinkeDin"></a></li>
+        <li><a href=""><img src="../assets/svg/instagram.svg" alt="Logo instagram"></a></li>
       </ul>
     <p>Copyright © 2025 Igor Photography. Todos os direitos reservados.</p>
   </footer>

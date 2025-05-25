@@ -139,14 +139,14 @@ body{
 
 #contact {
   background-color:  var(--bodyColor);
-  background: url(../assets/svg/Vectors.svg) no-repeat top;
+  background: url(../assets/svg/Vectors.svg) no-repeat; 
   background-size: cover;
-  height: 900px;
+  background-position: center;
+
+  min-height: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0;
-  
   
   .conjunction{
     display: flex;

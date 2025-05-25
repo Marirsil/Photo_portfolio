@@ -28,6 +28,7 @@
   --description: 400 10px/15px var(--font-family);
   --footerText: 400 11px/30px var(--font-family);
   --inputText: 400 12px  var(--font-family); 
+  --porcamento: 400 24px/30px var(--font-family);
   
   --mobile--paragrafo1Bold: 700 14px/30px var(--font-family);
 }

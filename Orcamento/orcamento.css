@@ -26,25 +26,22 @@
     color: white;
     }
 
-  
-
   .inicio-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    
   }
 
   .inicio-text h1{
-    font-weight: 800px;
-    font-size: 80px;
+    font:var(--h1);
+    margin-bottom: 1.75rem;
   }
 
   .inicio-text p{
-    font-weight: 400;
-    font-size: 24px;
+    font: var(--porcamento);
+    color: var(--textColor70);
     width: 799px;
   }
 

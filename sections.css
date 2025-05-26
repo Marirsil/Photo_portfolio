@@ -139,7 +139,7 @@ body{
 
 #contact {
   background-color:  var(--bodyColor);
-  background: url(../assets/svg/Vectors.svg) no-repeat; 
+  background: url(./assets/svg/Vectors.svg) no-repeat; 
   background-size: cover;
   background-position: center;
 

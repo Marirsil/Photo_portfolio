@@ -50,14 +50,14 @@
   background: url(../assets/svg/Vectors.svg) no-repeat; 
   background-size: cover;
   background-position: center;
-  min-height: 900px;
+  min-height: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: -1rem;
   position: relative;
   z-index: 2;
-  top: -4.40rem;
+  top: -4.60rem;
   
   
   .conjunction{

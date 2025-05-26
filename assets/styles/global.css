@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: var(--bodyColor);
+}
+
 :root {
   --bodyColor: #0D0D0D;
   --textColor: #F9F9FB;

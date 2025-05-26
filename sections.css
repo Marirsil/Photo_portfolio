@@ -83,6 +83,13 @@ body{
     display: flex;
     gap: 2.39rem;
     padding-bottom: 7.625rem;
+
+    .img{
+      width: 20.9538rem;
+      height: 32.1475rem;
+      border-radius: 1.25rem;
+      box-shadow: 15px 19px 25.9px 0px rgba(0, 0, 0, 0.40);
+    }
   }
 
   .rightArrow {
@@ -288,7 +295,6 @@ body{
 
 
 .footer {
-
   background-color: var(--bodyColor);
   display: flex;
   flex-direction: column;

@@ -1,5 +1,8 @@
 # Photo_portfolio
 O Photo Portfólio é uma plataforma feita especialmente para o fotógrafo Igor Pessoa para que ele possa passar suas ideias de trabalho, compartilhar seu portfólio e facilitar para que pessoas entrem em contato com o mesmo e façam um orçamento.
+
+## Importante deixar claro que cada integrante ficou responsavel por uma pagina, sendo elas: index.html(Mariana Silva, Augusto Valério), portfolio.html(Josué Faria) e orçamento.html(Jonas e Vitor)
+
 ## Tecnologias Utilizadas:
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
